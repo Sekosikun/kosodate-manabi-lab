@@ -1,0 +1,7 @@
+# この自動投稿フォルダは将来GitHub(public)に上げるため、秘密情報は絶対に置かない/上げない
+.env
+*.env
+*secret*
+*token*
+credentials*.txt
+_secrets/
