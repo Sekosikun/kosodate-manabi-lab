@@ -80,6 +80,149 @@
       "reply_text": "",
       "status": "draft",
       "posted_id": null
+    },
+    {
+      "id": "d0701-0800",
+      "scheduled_time": "2026-06-30T23:00:00Z",
+      "text": "朝7時。上の子は着替えず、下の子は牛乳をこぼし、私は化粧が片方だけ。\n「早くして」を1日に何回言うんだろう…と思いながら、今日も見送る。\n\nワンオペ気味の朝、みんなどう乗り切ってますか？",
+      "images": [],
+      "reply_text": "",
+      "status": "pending",
+      "posted_id": null
+    },
+    {
+      "id": "d0701-0900",
+      "scheduled_time": "2026-07-01T00:00:00Z",
+      "text": "子どもが小さくて外で働けない。でも家計は不安。\nそんな私が、在宅で月数万を稼げるようになった“最初の一歩”の話。\n（長くなるので、続きは返信に👇）",
+      "images": [],
+      "reply_text": "最初にやったのは、スキル習得じゃなくて『スキマ時間の棚卸し』でした。\n昼寝の30分、夜の1時間。そこで何ができるか書き出すだけ。\n“まとまった時間を待つ”のをやめた瞬間、動き出せました。",
+      "status": "pending",
+      "posted_id": null
+    },
+    {
+      "id": "d0701-1000",
+      "scheduled_time": "2026-07-01T01:00:00Z",
+      "text": "「2歳から英語、やらせるべき？」と悩んでました。\nでも調べるほど、幼児期は“日本語の語彙”が後の学力の土台になる、という話に行き着いて。\n\n今は焦らず、絵本の時間を大事にしています。",
+      "images": [
+        "https://raw.githubusercontent.com/Sekosikun/kosodate-manabi-lab/main/images/card_c.png"
+      ],
+      "reply_text": "",
+      "status": "pending",
+      "posted_id": null
+    },
+    {
+      "id": "d0701-1100",
+      "scheduled_time": "2026-07-01T02:00:00Z",
+      "text": "「在宅で稼ぐ」って、特別なスキルがある人だけ…と思ってませんか？\n私も未経験から始めました。\n始めやすいものを3つ、まとめます。",
+      "images": [
+        "https://raw.githubusercontent.com/Sekosikun/kosodate-manabi-lab/main/images/card_d.png"
+      ],
+      "reply_text": "",
+      "status": "pending",
+      "posted_id": null
+    },
+    {
+      "id": "d0701-1200",
+      "scheduled_time": "2026-07-01T03:00:00Z",
+      "text": "正直、2歳のイヤイヤ期が一番しんどい。\n何を言っても「いや！」、抱っこも「いや！」、最後は床で大の字。\n\n…でも昨日、初めて「ママだいすき」と言われて、全部チャラになった。\n育児ってほんと、ズルい。",
+      "images": [],
+      "reply_text": "",
+      "status": "pending",
+      "posted_id": null
+    },
+    {
+      "id": "d0701-1300",
+      "scheduled_time": "2026-07-01T04:00:00Z",
+      "text": "みんなのリアル、教えてください。\n子ども2人いて、自分の自由時間って1日どれくらいありますか？\n\n私は正直、30分あればいい方です…。",
+      "images": [],
+      "reply_text": "",
+      "status": "pending",
+      "posted_id": null
+    },
+    {
+      "id": "d0701-1400",
+      "scheduled_time": "2026-07-01T05:00:00Z",
+      "text": "「うちの子、集中力なさすぎ…」と悩む前に、知ってほしいことがあります。\n子どもの集中の目安は“年齢×1〜2分”。\n（5歳なら？続きは返信で👇）",
+      "images": [],
+      "reply_text": "5歳なら5〜10分。それが普通なんです。\n大人基準で『長く座れない』と責めると逆効果。\n短く区切って“できた”を積む方が、結局のびる。\nわが家もこれで宿題バトルが減りました。",
+      "status": "pending",
+      "posted_id": null
+    },
+    {
+      "id": "d0701-1500",
+      "scheduled_time": "2026-07-01T06:00:00Z",
+      "text": "在宅で稼ぐって聞こえはいいけど、\n現実は子どもが寝たあとにPCを開いて、気づけば日付が変わってる日もある。\n\n“ラクして稼げる”話は、基本ウソだと思ってます。\nでも、コツコツは裏切らない。",
+      "images": [],
+      "reply_text": "",
+      "status": "pending",
+      "posted_id": null
+    },
+    {
+      "id": "d0701-1600",
+      "scheduled_time": "2026-07-01T07:00:00Z",
+      "text": "「子ども1人、大学まで約2千万」と聞いて、不安で眠れない夜がありました。\nでも内訳を知ったら、少し落ち着いたんです。\n（その理由、続きに👇）",
+      "images": [],
+      "reply_text": "大きいのは大学費用＝18年後の話。\n今の幼児期にかかるのは、習い事や教材で月1万円台くらい。\n“遠い大金”と“今の出費”を分けて考えると、ちょっと冷静になれます。",
+      "status": "pending",
+      "posted_id": null
+    },
+    {
+      "id": "d0701-1700",
+      "scheduled_time": "2026-07-01T08:00:00Z",
+      "text": "高い教材を見ると「これで差がつくかも」と焦りますよね。\nでも幼児期に本当に効くのは、お金じゃないことだったりします。",
+      "images": [
+        "https://raw.githubusercontent.com/Sekosikun/kosodate-manabi-lab/main/images/card_e.png"
+      ],
+      "reply_text": "",
+      "status": "pending",
+      "posted_id": null
+    },
+    {
+      "id": "d0701-1800",
+      "scheduled_time": "2026-07-01T09:00:00Z",
+      "text": "18時。ここから夕飯・お風呂・寝かしつけの“ラスボス3連戦”。\n働いてた頃の方がラクだったかも…なんて思う日もある。\n\n今日もお互い、おつかれさまです。",
+      "images": [],
+      "reply_text": "",
+      "status": "pending",
+      "posted_id": null
+    },
+    {
+      "id": "d0701-1900",
+      "scheduled_time": "2026-07-01T10:00:00Z",
+      "text": "在宅を始めたころ、私がやらかした失敗があります。\n“最初から完璧にやろうとした”こと。\n（どうすればよかった？続きに👇）",
+      "images": [],
+      "reply_text": "正解は『60点で出す』でした。\n子育て中はまとまった時間がない。完璧を待つと、一生終わらない。\n下手でも出して、後から直す。これで前に進めるようになりました。",
+      "status": "pending",
+      "posted_id": null
+    },
+    {
+      "id": "d0701-2000",
+      "scheduled_time": "2026-07-01T11:00:00Z",
+      "text": "そろそろ上の子(5歳)の“学び”をどうするか、夫と話し始めました。\n通信教育？こども英語？それとも今はまだ遊び中心？\n\n調べるほど選択肢が多くて、正直、迷子です。\nこのアカウントで、私の検討プロセスもそのまま共有していきます。",
+      "images": [],
+      "reply_text": "",
+      "status": "pending",
+      "posted_id": null
+    },
+    {
+      "id": "d0701-2100",
+      "scheduled_time": "2026-07-01T12:00:00Z",
+      "text": "私もいま準備中です。\n共働きに戻る前にやっておくと、後がぐっとラクになることをまとめました。",
+      "images": [
+        "https://raw.githubusercontent.com/Sekosikun/kosodate-manabi-lab/main/images/card_f.png"
+      ],
+      "reply_text": "",
+      "status": "pending",
+      "posted_id": null
+    },
+    {
+      "id": "d0701-2200",
+      "scheduled_time": "2026-07-01T13:00:00Z",
+      "text": "今日も一日、おつかれさまでした。\n\nこのアカウントは、5歳と2歳を育てながら在宅で働く私が、\n『子どもの教育』と『お金・働き方』を、等身大で発信していく場所です。\n\n背伸びはしません。一緒に悩みながら、一歩先の情報を届けます。\nよかったら、フォローしてね。",
+      "images": [],
+      "reply_text": "",
+      "status": "pending",
+      "posted_id": null
     }
   ]
 }
