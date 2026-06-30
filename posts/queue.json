@@ -1,17 +1,27 @@
 {
   "posts": [
     {
+      "id": "intro-2026-06-30",
+      "scheduled_time": "2026-06-30T00:00:00Z",
+      "text": "はじめまして、子育てまなびラボです🌱\n\n「子どもの教育、これで合ってるのかな…」\n共働きだと、ゆっくり調べる時間もなくて、なんとなく不安——そんな方のためのアカウントです。\n\nここでは、\n📚 子の通信教育・こども英語・知育\n🧑‍🏫 親の学び直し・在宅スキル\nを、中立に比較して、図解でわかりやすくお届けします。\n\n大事にしているのは「正直さ」。\n良いところだけでなく、デメリットや“実際いくらかかる？”も隠さず書きます。損はしたくないですよね。\n\n忙しいあなたの「結局、どれがいいの？」に、サッと答えられる場所を目指します。\n\n気になったらフォローしておくと、教育えらびで迷ったときに役立つはずです🔖\nよかったら「今いちばんの教育の悩み」をコメントで教えてください。できるだけ取り上げます🙌\n\n#共働き #子育て #通信教育 #子どもの習い事 #家庭学習",
+      "images": [
+        "https://raw.githubusercontent.com/Sekosikun/kosodate-manabi-lab/main/images/intro.png"
+      ],
+      "reply_text": "",
+      "status": "pending",
+      "posted_id": null
+    },
+    {
       "id": "sample-tsushin-hikaku",
       "scheduled_time": "2026-07-06T00:00:00Z",
-      "text": "「通信教育、どれも良さそうで逆に選べない…」\n共働きだと、じっくり比較する時間もないですよね。\n\n人気4社を“本当に大事な6つの軸”で、デメリットも隠さず正直に比較しました📊\n\n▶ 実質いくら？\n▶ 共働きでも回せる？(丸つけの手間)\n▶ ちゃんと続く？\n\nスワイプ＆保存して、検討のお供に🔖\n「うちは何を一番重視したい？」コメントで聞かせてください🙌\n\n#小学生 #通信教育 #共働き #子育て #家庭学習",
+      "text": "（比較カルーセル・本番用に内容を完成させてから pending にします）",
       "images": [
         "https://raw.githubusercontent.com/Sekosikun/kosodate-manabi-lab/main/images/slide1.png",
         "https://raw.githubusercontent.com/Sekosikun/kosodate-manabi-lab/main/images/slide2.png"
       ],
       "reply_text": "",
       "status": "draft",
-      "posted_id": null,
-      "_note": "status=draft の間は投稿されません。内容を完成・承認したら status を pending に変更します。"
+      "posted_id": null
     }
   ]
 }
