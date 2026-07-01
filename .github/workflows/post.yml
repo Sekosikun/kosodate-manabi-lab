@@ -3,7 +3,7 @@ name: post-to-threads
 on:
   schedule:
     # UTC指定（日本時間 = UTC+9）。例: 0時UTC=朝9時JST / 3時UTC=昼12時JST / 11時UTC=夜20時JST
-    - cron: "*/30 * * * *"
+    - cron: "*/15 * * * *"
   workflow_dispatch: {}
 
 permissions:
