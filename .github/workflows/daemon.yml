@@ -1,0 +1,39 @@
+name: threads-daemon
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: "7 */2 * * *"
+permissions:
+  contents: write
+concurrency:
+  group: threads-daemon
+  cancel-in-progress: true
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: loop-post
+        env:
+          THREADS_TOKEN: ${{ secrets.THREADS_TOKEN }}
+        run: |
+          git config user.name "gh-actions"
+          git config user.email "actions@users.noreply.github.com"
+          for i in $(seq 1 40); do
+            python post_to_threads.py || true
+            git add -A || true
+            git commit -m "auto: queue [skip ci]" || true
+            git pull --rebase --autostash origin main || true
+            git push || true
+            sleep 480
+          done
+      - name: rechain
+        if: always()
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+        run: |
+          curl -s -X POST -H "Authorization: Bearer $GH_PAT" -H "Accept: application/vnd.github+json" https://api.github.com/repos/${{ github.repository }}/actions/workflows/daemon.yml/dispatches -d '{"ref":"main"}' || true
