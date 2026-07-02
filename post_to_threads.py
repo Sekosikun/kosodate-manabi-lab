@@ -24,8 +24,11 @@ def post_item(uid,it):
         for u in imgs: ch.append(cont(uid,{"media_type":"IMAGE","image_url":u,"is_carousel_item":"true"})); time.sleep(3)
         time.sleep(20); cid=cont(uid,{"media_type":"CAROUSEL","children":",".join(ch),"text":text})
     time.sleep(20); pid=pub(uid,cid)
-    if it.get("reply_text"):
-        time.sleep(5); rc=cont(uid,{"media_type":"TEXT","text":it["reply_text"],"reply_to_id":pid}); time.sleep(5); pub(uid,rc)
+    replies = it.get("reply_texts")
+    if replies is None and it.get("reply_text"):
+        replies = [it["reply_text"]]
+    for r in (replies or []):
+        time.sleep(5); rc=cont(uid,{"media_type":"TEXT","text":r,"reply_to_id":pid}); time.sleep(5); pub(uid,rc)
     return pid
 def main():
     if not TOKEN: sys.exit("THREADS_TOKEN 未設定")

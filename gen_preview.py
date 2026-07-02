@@ -16,7 +16,8 @@ posts.sort(key=lambda p:p.get("scheduled_time",""))
 cards=[]
 for p in posts:
     imgs="".join('<img src="%s">'%datauri(u) for u in p.get("images",[]) if datauri(u))
-    reply='<div class="reply"><span class="rlabel">↳ 返信（自動投稿）</span>%s</div>'%esc(p["reply_text"]) if p.get("reply_text") else ""
+    rlist = p.get("reply_texts") or ([p["reply_text"]] if p.get("reply_text") else [])
+    reply="".join('<div class="reply"><span class="rlabel">↳ 返信%d（自動投稿）</span>%s</div>'%(i+1,esc(r)) for i,r in enumerate(rlist))
     badge="予約" if p.get("status")=="pending" else "下書き"
     cards.append('<div class="card"><div class="meta"><span class="time">%s</span><span class="badge %s">%s</span></div><div class="text">%s</div>%s<div class="imgs">%s</div></div>'%(jst(p.get("scheduled_time","")),p.get("status"),badge,esc(p.get("text","")),reply,imgs))
 doc='<!doctype html><meta charset="utf-8"><title>投稿プレビュー</title>'+CSS+('<h1>投稿プレビュー（%d件）— 時刻順・返信つき</h1>'%len(posts))+"".join(cards)
