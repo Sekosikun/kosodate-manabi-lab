@@ -32,7 +32,7 @@ jobs:
             sleep 480
           done
       - name: rechain
-        if: always()
+        if: ${{ !cancelled() }}
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
         run: |
